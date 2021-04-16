@@ -1,0 +1,2 @@
+docker build -t gui
+docker run -it --env="DISPLAY" --net=HOST --name=firefox gui
